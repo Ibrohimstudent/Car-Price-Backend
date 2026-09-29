@@ -13,6 +13,8 @@ app = FastAPI(title="Car Price Prediction API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["https://car-price-prediction-one-gilt.vercel.app/"],  # productionda frontend domeningizni yozing, masalan ["https://sizning-sayt.vercel.app"]
+    
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
