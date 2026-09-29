@@ -58,6 +58,6 @@ def get_stats():
 
 @app.post("/predict")
 def predict(car: CarInput):
-    row = pd.DataFrame([car.dict()])[FEATURES]
+    row = pd.DataFrame([car.model_dump()])[FEATURES]
     price = float(model.predict(row)[0])
     return {"predicted_price": round(price, 2)}
