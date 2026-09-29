@@ -1,0 +1,103 @@
+{
+  "features": [
+    "fueltype",
+    "carbody",
+    "drivewheel",
+    "enginetype",
+    "cylindernumber",
+    "wheelbase",
+    "carlength",
+    "carwidth",
+    "curbweight",
+    "enginesize",
+    "horsepower",
+    "citympg",
+    "highwaympg"
+  ],
+  "cat": {
+    "fueltype": [
+      "diesel",
+      "gas"
+    ],
+    "carbody": [
+      "convertible",
+      "hardtop",
+      "hatchback",
+      "sedan",
+      "wagon"
+    ],
+    "drivewheel": [
+      "4wd",
+      "fwd",
+      "rwd"
+    ],
+    "enginetype": [
+      "dohc",
+      "dohcv",
+      "l",
+      "ohc",
+      "ohcf",
+      "ohcv",
+      "rotor"
+    ],
+    "cylindernumber": [
+      "eight",
+      "five",
+      "four",
+      "six",
+      "three",
+      "twelve",
+      "two"
+    ]
+  },
+  "num": {
+    "wheelbase": {
+      "min": 86.6,
+      "max": 120.9,
+      "median": 97.0,
+      "is_int": false
+    },
+    "carlength": {
+      "min": 141.1,
+      "max": 208.1,
+      "median": 173.2,
+      "is_int": false
+    },
+    "carwidth": {
+      "min": 60.3,
+      "max": 72.3,
+      "median": 65.5,
+      "is_int": false
+    },
+    "curbweight": {
+      "min": 1488.0,
+      "max": 4066.0,
+      "median": 2414.0,
+      "is_int": true
+    },
+    "enginesize": {
+      "min": 61.0,
+      "max": 326.0,
+      "median": 120.0,
+      "is_int": true
+    },
+    "horsepower": {
+      "min": 48.0,
+      "max": 288.0,
+      "median": 95.0,
+      "is_int": true
+    },
+    "citympg": {
+      "min": 13.0,
+      "max": 49.0,
+      "median": 24.0,
+      "is_int": true
+    },
+    "highwaympg": {
+      "min": 16.0,
+      "max": 54.0,
+      "median": 30.0,
+      "is_int": true
+    }
+  }
+}

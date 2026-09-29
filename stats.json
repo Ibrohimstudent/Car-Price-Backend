@@ -1,0 +1,68 @@
+{
+  "model_comparison": [
+    {
+      "model": "CatBoost",
+      "rmse": 2098.52,
+      "r2": 0.944,
+      "time": 7.99
+    },
+    {
+      "model": "LightGBM",
+      "rmse": 3462.54,
+      "r2": 0.848,
+      "time": 0.02
+    },
+    {
+      "model": "XGBoost",
+      "rmse": 2221.02,
+      "r2": 0.938,
+      "time": 0.14
+    }
+  ],
+  "feature_importance": [
+    {
+      "feature": "enginesize",
+      "importance": 30.2
+    },
+    {
+      "feature": "curbweight",
+      "importance": 12.88
+    },
+    {
+      "feature": "horsepower",
+      "importance": 11.46
+    },
+    {
+      "feature": "citympg",
+      "importance": 9.86
+    },
+    {
+      "feature": "carwidth",
+      "importance": 9.19
+    },
+    {
+      "feature": "drivewheel",
+      "importance": 6.2
+    },
+    {
+      "feature": "carlength",
+      "importance": 5.34
+    },
+    {
+      "feature": "cylindernumber",
+      "importance": 4.11
+    },
+    {
+      "feature": "carbody",
+      "importance": 3.3
+    },
+    {
+      "feature": "highwaympg",
+      "importance": 3.21
+    }
+  ],
+  "dataset_size": 205,
+  "price_min": 5118.0,
+  "price_max": 45400.0,
+  "price_avg": 13276.710570731706
+}
